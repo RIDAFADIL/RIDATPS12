@@ -1,7 +1,6 @@
 ﻿SET QUOTED_IDENTIFIER, ANSI_NULLS ON
 GO
-
-	CREATE FUNCTION [dbo].[fn_diagramobjects]() 
+CREATE FUNCTION [dbo].[fn_diagramobjects]() 
 	RETURNS int
 	WITH EXECUTE AS N'dbo'
 	AS
